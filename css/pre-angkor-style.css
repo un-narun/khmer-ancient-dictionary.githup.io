@@ -1,0 +1,105 @@
+
+		@font-face {
+            font-family: 'KhmerOSsys';
+            src: url('fonts/KhmerOSsys.ttf') format('truetype');
+        }
+		@font-face {
+            font-family: 'Ang Daunsok';
+            src: url('fonts/Ang Daunsok.ttf') format('truetype');
+        }
+		@font-face {
+            font-family: 'Narun Pre Angkor 2025-New';
+            src: url('fonts/Narun Pre Angkor 2025-New.ttf') format('truetype');
+        }
+			
+        body {
+			max-width: 800px;
+            margin: 0 auto;
+			font-family: 'Ang Daunsok';
+            padding: 10px;
+            line-height: 1.6;
+            color: #333;
+        }
+		
+           
+        h1, h2 {
+            color: #2c3e50;
+        }
+		p {
+		  text-indent: 40px;
+		  text-align: justify;
+		  letter-spacing: 0px;
+		  line-height: 2;
+		}
+        
+        .search-container {
+            margin-bottom: 20px;
+        }
+        
+        #searchInput {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: 'KhmerOSsys';
+			font-size:16px;
+        }
+        
+        .list-container {
+            font-family: 'Narun Pre Angkor 2025-New';
+			font-size:20px;
+			border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .list-item {
+            font-family: 'Narun Pre Angkor 2025-New';
+			font-size:​ 20px;
+			padding: 10px 10px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .list-item:hover {
+            background-color: #f5f5f5;
+        }
+        
+        .list-item.active {
+            background-color: #e1f5fe;
+        }
+        
+        .description {
+			font-family: 'Ang Daunsok';
+			font-size:​ 16px;
+			padding: 10px;
+            background-color: #f9f9f9;
+            border-top: 1px solid #eee;
+            display: none;
+        }
+        
+        .pagination {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .page-info {
+            color: #7f8c8d;
+        }
+        
+        button {
+            padding: 8px 15px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: 'Ang Daunsok';
+        }
+        
+        button:disabled {
+            background-color: #bdc3c7;
+            cursor: not-allowed;
+        }
